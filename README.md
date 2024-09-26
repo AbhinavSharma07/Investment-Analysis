@@ -1,38 +1,29 @@
-# Investment Analysis for an Asset Management Company
+# Spark Funds Investment Analysis
 
-## Overview
+## Project Overview
 
-This project is for **Spark Funds**, an asset management company, to analyze global investment trends and provide insights for optimal investment decisions. The objective is to identify the best sectors, countries, and investment types for Spark Funds, focusing on areas with significant investor activity.
+This project helps **Spark Funds**, an asset management company, identify the best investment sectors, countries, and investment types based on global trends. Spark Funds aims to invest where most investors are already investing.
 
-## Business Objective
+## Objectives
 
-The key goals of the analysis are:
-1. Identify ideal investment sectors and countries.
-2. Recommend the best investment type for Spark Funds (between 5 to 15 million USD per round).
-3. Provide data-driven insights on global investment trends.
+1. **Business Goals**:
+   - Identify top sectors, countries, and investment types for future investments.
+   
+2. **Analysis Goals**:
+   - **Investment Type**: Compare venture, seed, angel, and private equity rounds to select the most suitable one.
+   - **Country**: Rank countries by investment activity (focus on English-speaking countries).
+   - **Sector**: Analyze investments across 8 main sectors.
 
 ## Data Sources
 
-Data is sourced from **Crunchbase** and includes:
-1. [**Companies Data**](https://www.crunchbase.com/discover/companies) — Sector and country information.
-2. [**Rounds Data**](https://www.crunchbase.com/discover/funding_rounds) — Investment types and amounts.
-3. [**Mapping Data**](https://www.example.com/mapping-data) — Maps sub-sectors to the eight main sectors.
+- Investment data from **crunchbase.com**.
+- Files used: `companies.csv`, `rounds2.csv`, `mapping.csv`.
+- Investment constraint: **5 to 15 million USD** per round in **English-speaking countries**.
 
-## Constraints
+## Approach
 
-1. Investments between **5 to 15 million USD**.
-2. Investments in **English-speaking countries** only ([List of English-speaking countries](https://en.wikipedia.org/wiki/List_of_territorial_entities_where_English_is_an_official_language)).
+1. Data cleaning and merging.
+2. Analyze investment types, countries, and sectors.
+3. Provide actionable insights for Spark Funds’ investment strategy.
 
-## Key Steps
-
-1. **Data Cleaning:** Remove missing and duplicate entries.
-2. **Investment Type Analysis:** Identify investment types within the target range.
-3. **Country Analysis:** Highlight top countries for investment.
-4. **Sector Analysis:** Map sub-sectors to main sectors and analyze funding.
-
-## Deliverables
-
-- **Investment Type Recommendation**
-- **Top Countries for Investment**
-- **Top Sectors for Investment**
 
