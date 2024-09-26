@@ -1,4 +1,4 @@
-# Spark Funds Investment Analysis
+# Investment-Analysis-for-an-Asset-Management-Company
 
 ## Project Overview
 
